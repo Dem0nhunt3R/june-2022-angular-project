@@ -1,0 +1,33 @@
+.character-card {
+  background-color: silver;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.character-card > p {
+  margin: 0;
+}
+
+.character-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-width: 1000px;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: silver;
+  height: 100px;
+  flex-direction: column;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.sub-header > h2 {
+  margin: 0;
+}

@@ -1,0 +1,12 @@
+<div class="sub-header">
+  <h2>Rick and Morty episodes</h2>
+</div>
+<div class="container">
+  <div class="wrapper">
+    <app-episode *ngFor="let episode of episodes" [episode]="episode"></app-episode>
+  </div>
+</div>
+<div class="pagination">
+  <button [disabled]="!info.prev" (click)="prev()">prev</button>
+  <button [disabled]="!info.next" (click)="next()">next</button>
+</div>
